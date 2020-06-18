@@ -133,7 +133,7 @@ input {
 }
   
   /*estilo do botão */
-input[type="button"] {
+input[type="submit"] {
     width: 100%!important;
     cursor: pointer;	
     background: #3d9db3;
@@ -150,7 +150,7 @@ input[type="button"] {
     transition: all 0.2s linear;
 }
 
-input[type="button"]:hover {
+input[type="submit"]:hover {
     background: #4ab3c6;
 }
 
