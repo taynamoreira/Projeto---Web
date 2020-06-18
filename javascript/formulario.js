@@ -30,7 +30,7 @@ function validar() {
         alert('Digite sua mensagem!');
         mensagem.focus();
         return;
-    } eles {
+    } else {
         alert('Mensagem enviada!');
     }
 
