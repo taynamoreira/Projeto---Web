@@ -97,9 +97,9 @@ label {
 }
 
 #mensagem {
-    width: 400px;
+    width: 350px;
     height: 200px;
-    margin-top: 10px;
+    margin: auto;
     text-align: left;
 }
   
