@@ -6,33 +6,31 @@ function validar() {
     var telefone = document.getElementById("telefone")
     var mensagem = document.getElementById("mensagem")
 
-    if (nome.value.length == 0) {
+    if (nome.value == "") {
         alert('Nome não informado!')
         nome.focus();
         return;
     }
-    if (sobrenome.value.length == 0) {
+    if (sobrenome.value == "") {
         alert('Sobrenome não informado!');
         sobrenome.focus();
         return;
     }
-    if (email.value.length == 0) {
+    if (email.value == "") {
         alert('Email não informado!');
         email.focus();
         return;
     }
-    if (telefone.value.length == 0) {
+    if (telefone.value == "") {
         alert('Telefone não informado!');
         telefone.focus();
         return;
     }
-    if (mensagem.value.length == 0) {
+    if (mensagem.value == "") {
         alert('Digite sua mensagem!');
         mensagem.focus();
         return;
     } else {
         alert('Mensagem enviada!');
     }
-
 }
-  
