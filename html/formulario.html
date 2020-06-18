@@ -9,20 +9,22 @@
     <title>Fale Conosco</title>
 </head>
 
+
 <body>
 
     <header>
         <div id="banner">
-       
+            <!-- aqui o topo da pagina-->
             <h1>Descomplicando o Autismo</h1>
 
         </div>
     </header>
-         
+    
+            
     <nav>
-       
+        <!-- aqui é barra de navegação -->
         <ul>
-            <li><a href="../index.html">Home</a></li>
+            <li><a href="/index.html">Home</a></li>
             <li><a href="leis_e_direitos.html">Leis e Direitos</a></li>
             <li><a href="formulario.html">Fale Conosco</a></li>
         </ul>
@@ -31,6 +33,8 @@
     <h1 class="conta">Fale Conosco</h1>
         
       <div class="content">
+
+            <!--FORMULÁRIO-->
         
         <div id="formulario">
             <form method="post" action="mailto: taynamoreirapaulo@gmail.com"> 
@@ -52,17 +56,15 @@
             
             <p> 
                 <label for="telefone">Telefone</label>
-                <input id="telefone" name="telefone" required="required" type="text" placeholder="(DDD)xxxx-xxxx"><br>
+                <input id="telefone" name="telefone" required="required"  maxlength="11" placeholder="(DDD) xxxx-xxxx"><br>
             </p>
-
-            <p> 
                 <label for="mensagem">Mensagem</label><br>
-                <input id="mensagem" name="mensagem" required="required" type="text"><br>
-            </p>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="5"></textarea>
             
-            <p> 
-                <input type="submit" id="botao" value="Enviar" onclick="validar()">
-            </p>
+                <div class="botao">
+                    <input type="submit" id="enviar" name="enviar" onclick="validar()" >
+                </div>
+    
             
             </form>
         </div>
@@ -70,7 +72,7 @@
         <footer>
             <!-- rodapé da pagina-->
             <div id="copyright">
-                <p>Todos os direitos reservados para Tayná Paulo &copy; 2020</p>
+                <p>Todos os direitos reservados para Descomplicando o Autismo &copy; 2020</p>
             </div>
         </footer>
 </body>
